@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Header*/
+
+
+header {
+    background-color: #3e7a8c;
+}
+
+ul {
+    display: flex;
+    flex-flow: nowrap;
+}
+
+li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 2px;
+}
+
+
+.menuknop {
+    border: none;
+    display: block;
+    vertical-align: middle;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+    style: none;
+}
+
+.current {
+    display: block;
+    vertical-align: middle;
+    background-color: #74AFAD;;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+    style: none;
+
+}
+p.MenuKnoop {
+    display: flex;
+    padding: 5px;
+    white-space: nowrap;
+}
+/*End Header*/
+
+
+#Banner{
+    height: 200px;
+    width: 100%;
+    display: block;
+}
+main{
+    display: flex;
+}
+#RIGHTCONTENT{
+    display: block;
+    width: 50%;
+}
+#LEFTCONTENT{
+    display: block;
+    width: 50%;
+}
+/*article stuff*/
+article {
+    display: block;
+    Height: auto;
+    border: #003b4f;
+    border-style: solid;
+
+}
+
+h1 {
+    padding: 10px;
+    font-size: 30px;
+    background-color: darkslategrey;
+
+}
+
+h3 {
+    padding: 10px;
+    background-color: darkslategrey;
+
+}
+p{
+    padding: 10px;
+}
+/*Footer*/
+Footer {
+    width:100%;
+    text-align: center;
+    background-color: grey;
+}
