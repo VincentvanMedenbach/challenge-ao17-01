@@ -12,7 +12,7 @@ $pagina = basename($_SERVER["PHP_SELF"]);
 
 <body>
 <header>
-    <nav>
+    <nav id="MENU">
         <ul>
             <li>
                 <a <?php if ($pagina == "index.php") {
@@ -54,6 +54,9 @@ $pagina = basename($_SERVER["PHP_SELF"]);
                 </a>
             </li>
         </ul>
-        <img src="home/home-banner.jpg" alt="Banner" id="Banner">
+        <div id="Banner">
+            <img src="img/life-is-like-a-sandwhich-overlay.png" alt="Banner" id="BannerImage">
+        </div>
+
     </nav>
 </header>
